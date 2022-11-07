@@ -54,7 +54,7 @@ function Info(){
 Banner()
 const startBombing = prompt('[*] Do you want to start bombing? type y/n:')
 if(startBombing == 'y'){
-   const number = prompt('[*] Type a phone number wuthout country code:')
+   const number = prompt('[*] Type a phone number without country code:')
    const amount = prompt('[*] How many otp you want to send:')
    
    function sendOtp(){
